@@ -1,0 +1,45 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+# Package/build outputs
+build/
+dist/
+*.egg-info/
+.eggs/
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+# Jupyter notebooks
+.ipynb_checkpoints/
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+# OS files
+.DS_Store
+Thumbs.db
+# Logs
+*.log
+# Generated local outputs
+token_embeddings.tsv
+# Model/cache directories if created inside the repo
+.cache/
+models/
+checkpoints/
+# Large generated media/artifacts
+*.mp4
+*.mov
+*.avi
+*.tsv
